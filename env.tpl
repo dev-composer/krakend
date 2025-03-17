@@ -1,1 +1,1 @@
-HELLO_IMAGE=hello-world:latest
+KRAKEND_IMAGE=devopsfaith/krakend:2.9
