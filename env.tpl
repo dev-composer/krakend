@@ -1,1 +1,2 @@
 KRAKEND_IMAGE=devopsfaith/krakend:2.9
+KRAKEND_CONFIG_DIR=.

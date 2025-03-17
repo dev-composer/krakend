@@ -4,7 +4,7 @@ services:
     # Do not use this image in production, it's meant to speed up your testing and development.
     image: ${KRAKEND_IMAGE}
     volumes:
-      - ./config/krakend:/etc/krakend
+      - ${KRAKEND_CONFIG_DIR}:/etc/krakend
     ports:
       - "1234:1234"
       - "8080:8080"
